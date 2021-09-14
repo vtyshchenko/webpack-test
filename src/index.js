@@ -1,4 +1,3 @@
 import "./sass/main.scss";
-import "./index.html";
 
-console.log("test");
+import "./js/main.js";

@@ -1,1 +1,10 @@
-@import "./common/common";
+@import './utils/variables';
+
+@import './common/base';
+
+@import './utils/themes';
+
+@import './layout/button';
+@import './layout/card';
+@import './layout/menu';
+@import './layout/tags';

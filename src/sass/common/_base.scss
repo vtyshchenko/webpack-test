@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: color $animation-duration $timing-function,
+    background-color $animation-duration $timing-function;
+}
+
+body.light-theme {
+  background-color: $body-background-color-light;
+  color: $body-color-light;
+}
+
+body.dark-theme {
+  background-color: $body-color-light;
+  color: $body-background-color-light;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 24px;
+}
