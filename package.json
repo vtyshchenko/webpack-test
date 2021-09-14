@@ -1,0 +1,40 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production",
+    "build": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtyshchenko/webpack-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtyshchenko/webpack-test/issues"
+  },
+  "homepage": "https://github.com/vtyshchenko/webpack-test#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "saas": "^1.0.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.1",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1"
+  }
+}
